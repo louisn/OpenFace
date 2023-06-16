@@ -61,9 +61,9 @@ echo "Essential dependencies installed."
 
 # OpenCV Dependency
 echo "Downloading OpenCV..."
-wget https://github.com/opencv/opencv/archive/4.1.0.zip
-unzip 4.1.0.zip
-cd opencv-4.1.0
+wget https://github.com/opencv/opencv/archive/4.7.0.zip
+unzip 4.7.0.zip
+cd opencv-4.7.0
 mkdir -p build
 cd build
 echo "Installing OpenCV..."
@@ -72,7 +72,7 @@ make -j4
 sudo make install
 cd ../..
 rm 4.1.0.zip
-sudo rm -r opencv-4.1.0
+sudo rm -r opencv-4.7.0
 echo "OpenCV installed."
 
 # dlib dependecy
