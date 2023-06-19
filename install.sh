@@ -71,7 +71,7 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D WITH_TBB
 make -j4
 sudo make install
 cd ../..
-rm 4.1.0.zip
+rm 4.7.0.zip
 sudo rm -r opencv-4.7.0
 echo "OpenCV installed."
 
